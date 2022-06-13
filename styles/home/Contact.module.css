@@ -1,0 +1,48 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 5rem 10rem;
+  background: url("/home/bg-hero.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.contact p {
+  width: 50%;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.contact button {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 10px;
+  width: 15rem;
+  height: 3rem;
+  background-color: #1429a0;
+  color: white;
+}
+
+@media (max-width: 1200px) {
+  .contact {
+    padding: 1rem;
+  }
+  .contact h2 {
+    text-align: center;
+  }
+  .contact p {
+    width: 80%;
+  }
+}

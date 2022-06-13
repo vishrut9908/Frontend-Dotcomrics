@@ -1,0 +1,167 @@
+.about-comp {
+  width: 100%;
+  padding: 5rem 15rem;
+  height: auto;
+  position: relative;
+  /* margin-bottom: 15rem; */
+  overflow-x: unset;
+}
+
+.wrapper-about {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img-about {
+  width: 45%;
+  height: auto;
+}
+
+.img-about img {
+  width: 100%;
+  height: auto;
+}
+
+.about-circle {
+  width: 600px;
+  height: 600px;
+  padding: 7rem;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 10%;
+  right: 55%;
+  background-color: #6846b8;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.about-circle h2 {
+  width: 100%;
+  font-size: 3rem;
+  color: white;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+}
+
+.about-circle p {
+  width: 100%;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 30px;
+  text-align: left;
+}
+
+.main-about-comp button {
+  width: 10rem;
+  height: 3rem;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  /* text-transform: uppercase; */
+  background-color: #1429a0;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  outline: none;
+}
+
+.main-about-comp {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.main-about-comp h3 {
+  font-size: 1.5rem;
+  color: #ff9123;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+.main-about-comp p {
+  font-size: 1rem;
+  color: gray;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.main-about-comp h2 {
+  width: 100%;
+  font-size: 2rem;
+  color: black;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.main-about-comp h2 span {
+  color: black;
+}
+
+@media (max-width: 1200px) {
+  .about-comp {
+    padding: 1rem;
+  }
+  .wrapper-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: auto;
+    align-items: center;
+    width: 100%;
+  }
+  .main-about-comp {
+    padding: 0rem;
+    width: 100%;
+    align-items: center;
+  }
+  .main-about-comp h2 {
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .main-about-comp p {
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .img-about {
+    width: 100%;
+  }
+  .about-circle {
+    width: 300px;
+    height: 300px;
+    position: static;
+    padding: 3rem;
+    overflow-x: unset;
+    align-items: center;
+  }
+  .about-circle h2 {
+    overflow-x: unset;
+    text-align: center;
+    font-size: 1.52rem;
+  }
+  .about-circle p {
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: unset;
+  }
+  .about-circle button {
+    width: 100%;
+    height: 1.5rem;
+    font-size: 0.6rem;
+  }
+}

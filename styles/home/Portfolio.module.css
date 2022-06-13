@@ -1,0 +1,254 @@
+.expertise {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding: 0rem 0rem; */
+  padding: 5rem 15rem;
+  /* overflow: hidden; */
+  position: relative;
+  overflow-x: unset;
+  background: linear-gradient(#fff, rgb(241, 241, 241));
+  /* max-width: 1920px; */
+}
+
+.ball-expert {
+  width: 20vw;
+  height: auto;
+  position: absolute;
+  top: 55%;
+  overflow-y: hidden;
+  left: 20%;
+  /* z-index: -10; */
+}
+.ball-expert-02 {
+  width: 20vw;
+  height: auto;
+  position: absolute;
+  top: 5%;
+  overflow-y: hidden;
+  left: 49%;
+  z-index: -10;
+}
+.ball-expert-03 {
+  width: 40vw;
+  height: auto;
+  position: absolute;
+  right: -15%;
+  overflow-y: hidden;
+  top: 19%;
+  z-index: -10;
+}
+
+.ball-expert img {
+  width: 100%;
+  height: auto;
+}
+.ball-expert-02 img {
+  width: 100%;
+  height: auto;
+}
+.ball-expert-03 img {
+  width: 100%;
+  height: auto;
+}
+
+.upper-expertise {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.upper-expertise h3 {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.upper-expertise h2 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.upper-expertise p {
+  width: 70%;
+  text-align: center;
+  color: gray;
+  font-weight: 400;
+}
+
+.middle-expertise {
+  /* padding-left: 40vw; */
+  /* padding-right: 3rem; */
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 3rem auto;
+}
+
+.expertise-desc-wrapper {
+  transition: all ease 0.3s;
+  width: 32%;
+  position: relative;
+  height: 450px;
+  margin-bottom: 2rem;
+  /* box-shadow: 10px 1px 99px #9784e81f; */
+}
+
+.expertise-desc-wrapper:nth-child(last) {
+  box-shadow: none;
+}
+
+/* margin-right: 3rem; */
+.expertise-desc {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.678);
+  backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  border-radius: 60px;
+  border: 2px solid #fff;
+}
+
+.expertise-desc h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 1rem 0rem;
+}
+
+.expertise-desc p {
+  color: gray;
+  font-weight: 400;
+}
+
+.expertise-desc .date-blog {
+  color: #ff9123;
+}
+
+.middle-expertise::-webkit-scrollbar {
+  visibility: hidden;
+}
+
+.expertise-img {
+  width: 100%;
+  height: 150px;
+  /* max-height: 300px; */
+  border-radius: 20px;
+  margin-bottom: 1rem;
+}
+
+.lower-expertise {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  /* margin-top: 3rem; */
+}
+
+.lower-expertise .btn-expertise {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.btn-expertise-container {
+  display: flex;
+  justify-content: space-between;
+  width: 180px;
+  height: auto;
+  align-items: center;
+}
+
+.hide-lower {
+  display: none;
+}
+
+.btn-exp {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: 2px solid #1429a0;
+  background: none;
+  color: #1429a0;
+  position: relative;
+}
+
+.left-exp-btn:before {
+  content: "<";
+  font-size: 2rem;
+  font-weight: 400;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.right-exp-btn:before {
+  content: ">";
+  font-size: 2rem;
+  font-weight: 400;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn-view-exp {
+  border: none;
+  background-color: #1429a0;
+  border-radius: 10px;
+  width: 10rem;
+  height: 3rem;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  text-transform: capitalize;
+}
+
+@media (max-width: 1200px) {
+  .expertise {
+    padding: 1rem;
+  }
+  .upper-expertise {
+    padding: 1rem;
+  }
+  .upper-expertise h2 {
+    font-size: 2rem;
+  }
+  .middle-expertise {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0rem;
+  }
+  .expertise-desc {
+    height: auto;
+  }
+  .expertise-desc-wrapper {
+    width: 100%;
+    min-width: unset;
+    padding: 0rem 1rem;
+    height: auto;
+    /* min-width: unset; */
+  }
+  .btn-expertise-container {
+    width: 100px;
+  }
+  .btn-expertise button {
+    width: 3rem;
+    height: 3rem;
+  }
+}

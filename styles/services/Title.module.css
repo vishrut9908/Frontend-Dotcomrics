@@ -1,0 +1,33 @@
+.title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+  background: url("/home/bg-hero.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.title h1 {
+  width: 70%;
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+  color: black;
+}
+
+@media (max-width: 1200px) {
+  .title {
+    height: auto;
+    padding: 5rem 1rem;
+    padding-bottom: 2rem;
+  }
+
+  .title h1 {
+    width: 100%;
+    height: auto;
+    font-size: 2rem;
+  }
+}

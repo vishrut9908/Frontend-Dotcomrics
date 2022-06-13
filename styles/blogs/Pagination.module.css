@@ -1,0 +1,30 @@
+.pagination-container {
+  width: 100%;
+  height: auto;
+  padding: 5rem 7rem;
+  padding-top: 0rem;
+}
+.pagination-wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  max-width: 1400px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pagination-wrapper button {
+  width: auto;
+  height: 2rem;
+  padding: 0rem 1rem;
+  font-size: 1rem;
+  background: none;
+  border: 1.5px solid blue;
+  color: blue;
+  border-radius: 50px;
+  margin-right: 1rem;
+  text-transform: capitalize;
+  cursor: pointer;
+}

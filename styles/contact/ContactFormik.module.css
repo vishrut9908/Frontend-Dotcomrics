@@ -1,0 +1,83 @@
+.contact-form-inner {
+  width: 63%;
+  height: 100%;
+  background: white;
+  padding: 3rem;
+  border-radius: 20px;
+}
+
+.wrapper-contact-form-inner {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper-contact-form-inner form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: flex-start;
+}
+
+.wrapper-contact-form-inner input {
+  width: 100%;
+  height: 3rem;
+  border: 0.5px solid gray;
+  border-radius: 10px;
+  background: none;
+  outline: none;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+}
+.wrapper-contact-form-inner textarea {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  height: 10rem;
+  background: none;
+  font-size: 1rem;
+  outline: none;
+  border: 0.5px solid gray;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.btn-contact {
+  width: 30%;
+  min-width: 10rem;
+  height: 3rem;
+  border: none;
+  border-radius: 10px;
+  background: #1429a0;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.wrapper-contact-form-inner button:disabled {
+  background-color: #7b8588;
+}
+
+.wrapper-contact-form-inner h2 {
+  /* margin-bottom: 1rem; */
+  font-weight: 600;
+  font-size: 1.3rem;
+  overflow-x: unset;
+}
+
+.wrapper-contact-form-inner form div {
+  overflow-x: unset;
+}
+
+@media screen and (max-width: 1200px) {
+  .contact-form-inner {
+    width: 100%;
+    height: 600px;
+    height: auto;
+    padding: 3rem 2rem;
+  }
+}

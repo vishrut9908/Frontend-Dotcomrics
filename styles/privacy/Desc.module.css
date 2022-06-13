@@ -1,0 +1,76 @@
+.desc-page {
+  width: 100%;
+  padding: 5rem 10rem;
+}
+
+.wrapper-desc {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.wrapper-desc {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.wrapper-desc h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.wrapper-desc h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #ff9123;
+}
+
+.wrapper-desc p {
+  margin-top: 1rem;
+  color: gray;
+  font-weight: 400;
+}
+
+.wrapper-desc-2 p {
+  margin-top: 1rem;
+  color: gray;
+  font-weight: 400;
+}
+
+.wrapper-desc p u {
+  color: blue;
+  text-decoration: underline;
+}
+
+.wrapper-desc-2 p u {
+  color: blue;
+  text-decoration: underline;
+}
+
+.wrapper-desc p strong {
+  color: blue;
+}
+
+.wrapper-desc-2 p strong {
+  color: #ff9123;
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.wrapper-desc p a {
+  color: blue;
+  text-decoration: underline;
+}
+
+.wrapper-desc-2 p a {
+  color: blue;
+  text-decoration: underline;
+}
+
+@media (max-width: 1200px) {
+  .desc-page {
+    padding: 1rem;
+  }
+}

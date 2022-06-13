@@ -1,0 +1,56 @@
+.logos {
+  width: 100%;
+  height: auto;
+  padding: 3rem 10rem;
+}
+
+.logos-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 2rem 5rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: auto;
+}
+
+.logo {
+  width: 20%;
+  height: auto;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+.logo .logo-small {
+  width: 85%;
+}
+
+.logo:hover {
+  transition: all ease 0.3s;
+  transform: scale(1.2);
+}
+
+@media (max-width: 1200px) {
+  .logos {
+    padding: 1rem;
+  }
+  .logos-wrapper {
+    flex-direction: column;
+    height: auto;
+    justify-content: space-between;
+  }
+  .logo {
+    width: 50%;
+    margin-bottom: 2rem;
+  }
+  .logo-small {
+    width: 50%;
+  }
+}

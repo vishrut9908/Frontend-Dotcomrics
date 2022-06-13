@@ -1,0 +1,93 @@
+.blog-ind {
+  width: 100%;
+  padding: 5rem 10rem;
+  display: flex;
+  background-color: whitesmoke;
+  flex-direction: column;
+  align-items: baseline;
+  padding-bottom: 5rem;
+}
+
+.blog-indi-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.blog-indi-img img {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.blog-ind-details {
+  width: 100%;
+  padding: 3rem;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.blog-ind p {
+  font-size: 1rem;
+  line-height: 1.7rem;
+  margin-top: 1rem;
+}
+
+.blog-ind p u {
+  color: blue;
+  text-decoration: underline;
+}
+
+.blog-ind p a {
+  color: blue;
+  text-decoration: underline;
+}
+
+.date-ind {
+  background-color: whitesmoke;
+  color: gray;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.date-ind hr {
+  width: 4px;
+  height: 1.5rem;
+  margin-right: 1rem;
+  border: none;
+  border-radius: 50px;
+  background-color: #ff9123;
+}
+
+.blog-ind h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.publisher {
+  width: fit-content;
+  background-color: whitesmoke;
+  padding: 0.5rem 1rem;
+  color: gray;
+  border-radius: 5px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.publisher svg {
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 1200px) {
+  .blog-ind {
+    padding: 5rem 1rem;
+    padding-bottom: 2rem;
+  }
+}

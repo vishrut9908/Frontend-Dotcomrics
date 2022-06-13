@@ -1,0 +1,3 @@
+export const GET_LOGO_REQUEST = "GET_LOGO_REQUEST"
+export const GET_LOGO_SUCCESS = "GET_LOGO_SUCCESS"
+export const GET_LOGO_ERROR = "GET_LOGO_ERROR"
